@@ -1,0 +1,394 @@
+body {
+    background-color: #FAF1E0;
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Papyrus';
+    font-size: 60px;
+    font-weight: bold;
+    color: #F76C30;
+    margin-block-start: 90px;  
+    margin-block-end: 0px;
+    margin-left: 110px;
+    z-index: 2;
+}
+
+h1::first-letter {
+    font-size: 1.5em;
+}
+
+h1.CHname {
+    margin-left: 950px;
+    font-size: 50px;
+}
+
+h2 {
+    position: absolute;
+    font-family: 'Papyrus';
+    font-size: 60px;
+    font-weight: bold;
+    color: #F76C30;   
+    margin-block-start: 60px; 
+    margin-block-end: 0px;
+    margin-left: 260px;
+    padding-left: 40px;
+    z-index: 3;
+    top: 110px;
+}
+
+h2::first-letter {
+    font-size: 1.5em;
+}
+
+h3 {
+    position: absolute;
+    font-family: 'Papyrus';
+    font-size: 25px;
+    color: #F76C30;
+    margin-block-start: 60px;
+    z-index: 4;
+    top: 225px;
+    margin-left: 720px;
+}
+
+div.bigSquare {
+    position: absolute;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;  
+    padding-top: 200px;
+    padding-bottom: 60px;
+    border-radius: 25px;
+    background-color: #EEDBC4;
+    z-index: 1;
+    top: 105px;
+}
+
+form {
+    font-family: 'Courier New';
+    font-size: 30px;
+    font-weight: bold;
+    color: #135F8B;
+}
+
+div.block1 {
+    display: inline-block;
+    margin-left: 220px;
+    margin-block-start: 30px;
+}
+label.shop1 {
+    margin-left: 130px;
+}
+
+div.block2 {
+    display: inline-block;
+    margin-left: 150px;
+    margin-block-start: 30px;
+}
+label.shop2 {
+    padding-bottom: 30px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+div.block3 {
+    display:inline-block;
+    margin-left: 70px;
+    margin-block-start: 30px;
+}
+label.shop3 {
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+div.block4 {
+    display:inline-block;
+    margin-left: 80px;
+    margin-block-start: 30px;
+}
+label.shop4 {
+    margin-left: 130px;
+    margin-top: 30px
+}
+
+div.block5 {
+    display:inline-block;
+    margin-left: 80px;
+    margin-block-start: 30px;
+}
+label.shop5 {
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+select#question {
+    font-family: 'Courier New';
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 60px;
+    color: #7D9168;
+    text-align: center;
+    background-color: #FAF1E0;
+    border-width: 2px;
+    border-color: #7D9168;
+}
+
+button {
+    font-family: 'Courier New';
+    font-size: 20px;
+    border-radius: 25px;
+    color:#135F8B;
+    text-align: center;
+    background-color: #FAF1E0;
+    border-style: solid;
+    border-color: #135F8B;
+}
+
+/* responsive styles */
+@media screen and (max-width: 1400px){
+    div.block1 {
+        margin-left: 150px;
+    }
+    div.block2 {
+        margin-left: 160px;
+        margin-right: 80px;
+    }
+    div.block3 {
+        margin-left: 60px;
+    }
+    div.block4 {
+        margin-left: 60px;
+    }
+    div.block5 {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    h1.CHname {
+        margin-left: 900px;
+    }
+    div.block1 {
+        margin-left: 150px;
+    }
+    div.block2 {
+        margin-left: 150px;
+    }
+    div.block3 {
+        margin-left: 40px;
+    }
+    div.block4 {
+        margin-left: 40px;
+    }
+    div.block5 {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    h1.CHname {
+        margin-left: 800px;
+    }
+    div.block1 {
+        margin-left: 150px;
+    }
+    div.block2 {
+        margin-left: 100px;
+    }
+    div.block3 {
+        margin-left: 35px;
+    }
+    div.block4 {
+        margin-left: 35px;
+    }
+    div.block5 {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    div.block1 {
+        margin-left: 130px;
+    }
+    div.block2 {
+        margin-left: 90px;
+    }
+    div.block3 {
+        margin-left: 25px;
+    }
+    div.block4 {
+        margin-left: 25px;
+    }
+    div.block5 {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    h1.CHname {
+        margin-block-start: 110px;
+        font-size: 40px;
+        margin-left: 780px;
+    }
+    div.block1 {
+        margin-left: 140px;
+    }
+    div.block2 {
+        margin-left: 90px;
+    }
+    div.block3 {
+        margin-left: 10px;
+    }
+    div.block4 {
+        margin-left: 10px;
+    }
+    div.block5 {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1160px){
+    h1.CHname {
+        margin-block-start: 60px;
+        top: 225px;
+        font-size: 30px;
+        margin-left: 130px;
+    }
+    h3 {
+        margin-left: 650px;
+    }
+    div.block1 {
+        margin-left: 120px;
+    }
+    div.block2 {
+        margin-left: 60px;
+    }
+    div.block3 {
+        margin-left: 300px;
+    }
+    div.block4 {
+        margin-left: 120px;
+    }
+    div.block5 {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1086px){
+    h3 {
+        margin-left: 550px;
+    }
+    div.block1 {
+        margin-left: 100px;
+    }
+    div.block2 {
+        margin-left: 60px;
+    }
+    div.block3 {
+        margin-left: 280px;
+    }
+    div.block4 {
+        margin-left: 100px;
+    }
+    div.block5 {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1066px){
+    h1 {
+        top: 8px;
+    }
+    div.bigSquare {
+        position:relative;
+        z-index: 1;
+    }
+    select#question {
+        margin-left: 0;
+    }
+    div.block1 {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    label.shop1 {
+        text-align: center;
+        margin-left: 0px;
+    }
+    div.block2 {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    label.shop2 {
+        text-align: center;
+        margin-left: 0px;
+    }
+    div.block3 {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    label.shop3 {
+        text-align: center;
+        margin-left: 0px;
+    }
+    div.block4 {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    label.shop4 {
+        text-align: center;
+        margin-left: 0px;
+    }
+    div.block5 {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    label.shop5 {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    h3 {
+        margin-left: 500px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    h2 {
+        margin-left: 150px;
+    }
+    h3 {
+        margin-left: 450px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    h2 {
+        margin-left: 150px;
+    }
+    h3 {
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    h2 {
+        margin-left: 150px;
+    }
+    h3 {
+        margin-left: 350px;
+    }
+}
